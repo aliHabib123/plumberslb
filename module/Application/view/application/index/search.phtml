@@ -1,0 +1,44 @@
+<?php use Application\Controller\CommonController;
+?>
+<div class="internal-banner">
+	<img alt="" src="<?php echo CommonController::getImage($this->banner->bannerImg);?>" class="img-responsive">
+</div>
+<div class="container page-title"><span><?php echo $this->sectionInfo->sectionTitle?></span></div>
+
+		<div class="container internal">
+		
+		<div class="row">
+		
+		<?php if (count($this->service) == 0 && count($this->projects) == 0){?>
+		<h2 class="content-center">No Results Found</h2>
+		
+		<?php }?>
+		
+		<?php foreach ($this->service as $row){?>
+		<div class="col-xs-12 search-col">
+		<div class="search-title"><a href="<?php echo MAIN_URL.'service-details/'.$row->serviceId?>"><?php echo $row->serviceTitle?></a></div>
+		<div class="search-desc">
+		<?php echo CommonController::StripText($row->serviceDetails, 0, 100, true, true)?></div>
+		</div>
+		
+		
+		<?php }?>
+		
+		
+				<?php foreach ($this->projects as $row){?>
+		<div class="col-xs-12 search-col">
+		<div class="search-title"><a href="<?php echo MAIN_URL.'project-details/'.$row->projectId?>"><?php echo $row->projectTitle?></a></div>
+		<div class="search-desc">
+		<?php echo CommonController::StripText($row->projectDesc, 0, 100, true, true)?></div>
+		</div>
+		
+		
+		<?php }?>
+		
+
+		
+		</div>
+		
+			
+		</div>
+			

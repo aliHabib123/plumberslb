@@ -1,0 +1,56 @@
+<?php use Application\Controller\CommonController;
+/*  list($width, $height) = getimagesize(BASE_URL.CommonController::getImage($this->projects[0]->projectImg));
+print_r($width.'  '.$height);
+print_r('<br>');
+print_r(BASE_URL.CommonController::getImage($this->projects[0]->projectImg)); */
+?>
+<div class="internal-banner">
+	<img alt="" src="<?php echo CommonController::getImage($this->banner->bannerImg);?>" class="img-responsive">
+</div>
+<div class="container page-title"><span><?php echo $this->sectionInfo->sectionTitle?></span></div>	
+		<div class="container internal">	
+		<?php if ($this->count == 0){?>
+		<h2>No Results Found</h2>
+		<?php }?>	
+			<div class="row">
+
+				
+				
+			<?php foreach ($this->projects as $row){
+			list($width, $height) = getimagesize(BASE_URL.CommonController::getImage($row->projectImg));
+			
+			if ($width>$height){
+				$mode ="landscape";
+			}else{
+				$mode ="portrait";
+			}?>
+				<div class="col-md-3 col-sm-4 home-project-col home-project-col-in">
+				<div class="home-project-image <?php echo $mode?>"><img alt="" src="<?php echo CommonController::getImage($row->projectImg)?>" class=""> </div>
+				<div class="home-project-title"><?php echo $row->projectTitle?></div>
+				</div>				
+			<?php }?>
+			</div>
+			
+			<div class="content-center">
+			
+			 <ul id="pagination-demo" class="pagination-sm"></ul>
+			</div>			
+			</div>
+			<script>
+			$(function(){
+			    $('#pagination-demo').twbsPagination({
+			        totalPages: <?php echo $this->count?>,
+			        visiblePages: 3,
+			        first: '',
+			        last: '',
+			        prev: '<img alt="prev" src="images/page-prev.png">',
+			        next: '<img alt="prev" src="images/page-next.png">',
+			        onPageClick: function (event, page) {
+			            $('#page-content').text('Page ' + page);
+			        },
+			        href: '<?php echo MAIN_URL."projects/".$this->upcomingId?>?pageId={{number}}'
+		        
+			    });
+			});
+			</script>
+			

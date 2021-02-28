@@ -1,0 +1,53 @@
+<?php
+	//include all DAO files
+	require_once('class/sql/Connection.class.php');
+	require_once('class/sql/ConnectionFactory.class.php');
+	require_once('class/sql/ConnectionProperty.class.php');
+	require_once('class/sql/QueryExecutor.class.php');
+	require_once('class/sql/Transaction.class.php');
+	require_once('class/sql/SqlQuery.class.php');
+	require_once('class/core/ArrayList.class.php');
+	require_once('class/dao/DAOFactory.class.php');
+ 	
+	require_once('class/dao/BannerDAO.class.php');
+	require_once('class/dto/Banner.class.php');
+	require_once('class/mysql/BannerMySqlDAO.class.php');
+	require_once('class/mysql/ext/BannerMySqlExtDAO.class.php');
+	require_once('class/dao/ContactDAO.class.php');
+	require_once('class/dto/Contact.class.php');
+	require_once('class/mysql/ContactMySqlDAO.class.php');
+	require_once('class/mysql/ext/ContactMySqlExtDAO.class.php');
+	require_once('class/dao/PageDAO.class.php');
+	require_once('class/dto/Page.class.php');
+	require_once('class/mysql/PageMySqlDAO.class.php');
+	require_once('class/mysql/ext/PageMySqlExtDAO.class.php');
+	require_once('class/dao/ProductDAO.class.php');
+	require_once('class/dto/Product.class.php');
+	require_once('class/mysql/ProductMySqlDAO.class.php');
+	require_once('class/mysql/ext/ProductMySqlExtDAO.class.php');
+	require_once('class/dao/ProjectDAO.class.php');
+	require_once('class/dto/Project.class.php');
+	require_once('class/mysql/ProjectMySqlDAO.class.php');
+	require_once('class/mysql/ext/ProjectMySqlExtDAO.class.php');
+	require_once('class/dao/SectionDAO.class.php');
+	require_once('class/dto/Section.class.php');
+	require_once('class/mysql/SectionMySqlDAO.class.php');
+	require_once('class/mysql/ext/SectionMySqlExtDAO.class.php');
+	require_once('class/dao/ServiceDAO.class.php');
+	require_once('class/dto/Service.class.php');
+	require_once('class/mysql/ServiceMySqlDAO.class.php');
+	require_once('class/mysql/ext/ServiceMySqlExtDAO.class.php');
+	require_once('class/dao/SocialDAO.class.php');
+	require_once('class/dto/Social.class.php');
+	require_once('class/mysql/SocialMySqlDAO.class.php');
+	require_once('class/mysql/ext/SocialMySqlExtDAO.class.php');
+	require_once('class/dao/SubscriberDAO.class.php');
+	require_once('class/dto/Subscriber.class.php');
+	require_once('class/mysql/SubscriberMySqlDAO.class.php');
+	require_once('class/mysql/ext/SubscriberMySqlExtDAO.class.php');
+	require_once('class/dao/TbNewsDAO.class.php');
+	require_once('class/dto/TbNew.class.php');
+	require_once('class/mysql/TbNewsMySqlDAO.class.php');
+	require_once('class/mysql/ext/TbNewsMySqlExtDAO.class.php');
+
+?>

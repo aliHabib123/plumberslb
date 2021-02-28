@@ -1,0 +1,92 @@
+<?php use Application\Controller\CommonController;
+?>
+<div class="internal-banner">
+	<img alt="" src="<?php echo CommonController::getImage($this->banner->bannerImg);?>" class="img-responsive">
+</div>
+<div class="container page-title"><span><?php echo $this->sectionInfo->sectionTitle?></span></div>
+<div class="upper-text-c">
+		<div class="container upper-text">
+			<?php echo $this->page1->pageDetails?>			
+		</div>	
+
+</div>	
+		<div class="container internal">
+		
+		<div class="row about-row">
+		<div class="col-md-6">
+		<div class="about-image">
+		<img alt="" src="<?php echo CommonController::getImage($this->page2->pageImg)?>">
+		</div>
+		<div class="about-title"><?php echo $this->page2->pageTitle?></div>
+		<div class="about-desc"><?php echo $this->page2->pageDetails?></div>
+		</div>
+		
+				<div class="col-md-6">
+		<div class="about-image">
+		<img alt="" src="<?php echo CommonController::getImage($this->page3->pageImg)?>">
+		</div>
+		<div class="about-title"><?php echo $this->page3->pageTitle?></div>
+		<div class="about-desc"><?php echo $this->page3->pageDetails?></div>
+		</div>
+		
+		
+		</div>
+		<div class="clearfix"></div>
+			
+		</div>
+		
+		<div class="vision-c">
+		<div class="content-center"><span class="clear">CLEAR</span></div>
+		<div class="container">
+		<div class="vision-t content-center"><?php echo $this->page4->pageTitle?></div>
+		<div class="vision-d content-center"><?php echo $this->page4->pageDetails?></div>
+		
+		</div>
+		
+		</div>
+		
+		<div class="container-fluid">
+		<div class="row">
+		<div class="col-md-6 mission">
+			<div>
+			<span class="valuable">VALUABLE</span>
+			<div class="mission-t"><?php echo $this->page5->pageTitle?></div>
+					<div class="mission-d">
+<?php echo $this->page5->pageDetails?>
+		
+		</div>
+			</div>
+		</div>
+		<div class="col-md-6 objective">
+		<div>
+		<span class="strong">STRONG</span>
+		<div class="mission-t"><?php echo $this->page6->pageTitle?></div>
+		<div class="mission-d">
+<?php echo $this->page6->pageDetails?>
+		
+		</div>
+		</div>
+		</div>
+		
+		</div>
+		
+		</div>
+		
+		<div class=" bottom-description-row">
+			
+			
+			<div class="container">
+			
+			<div class="bottom-title"><?php echo $this->page7->pageTitle?></div>
+			<div class="bottom-description">
+				<?php echo $this->page7->pageDetails?>		
+			</div>
+			
+			
+			</div>
+			
+			
+			
+			
+			</div>
+			

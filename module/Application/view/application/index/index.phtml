@@ -1,0 +1,154 @@
+<?php use Application\Controller\CommonController?>
+<div class="container-fluid">
+
+			<div class="row slider-row">			
+				    <ul class="bxslider">
+				    <?php foreach ($this->banner as $row){?>
+					 	<li>
+						 	<div class="image-slider"><img src="<?php echo CommonController::getImage($row->bannerImg);?>" class="img-responsive"/>
+						 	<div class="image-slider-bg content-center">
+						 	<div class="slider-logo"><a href="<?php echo MAIN_URL?>"><img alt="" src="images/logo.png" class="img-responsive"></a></div>
+						 	<div class="slider-text content-center"><?php echo CommonController::StripText($row->bannerDetails, 0, 65, true, true)?></div>
+						 	<div class="slider-btns content-center">
+						 		<a href="<?php echo MAIN_URL.'services'?>"><button class="btn btn-default blue-btn">OUR SERVICES</button></a>
+						 		<a href="<?php echo MAIN_URL.'about'?>"><button class="btn btn-default grey-btn">READ MORE</button></a>
+						 	</div>
+						 	
+						 	</div>						 	
+						 	</div>
+					 	</li>
+		  			<?php }?>
+					</ul>
+			</div>
+			<div id="scroll-to">&nbsp;</div>
+			
+			
+			<div class="row home-services">
+			
+			<div class="container">
+				<div class="row">
+
+					
+
+					<?php foreach ($this->services as $row){?>
+					
+					<div class="col-md-4 content-center home-service-col">
+						<div class="home-service-logo to-grey"><a href="<?php echo MAIN_URL.'service-details/'.$row->serviceId?>"><img alt="" src="<?php echo CommonController::getImage($row->serviceIcon);?>"> </a></div>
+						<div class="home-service-title"><?php echo $row->serviceTitle?></div>
+						<div class="home-service-desc"><?php echo CommonController::StripText($row->serviceDetails, 0, 100, true, true)?></div>
+						<div class="readmore"><a href="<?php echo MAIN_URL.'service-details/'.$row->serviceId?>">READ MORE</a></div>
+					</div>
+				
+				<?php }?>
+				
+				</div>
+			
+			
+			
+			
+			</div>
+			
+			
+			
+			</div>
+			
+			
+			
+			<div class="row home-projects">
+			
+			<div class="container">
+			<div class="row">
+			<div class="col-xs-12 content-right"><span id="left-btn"></span><span id="right-btn"></span></div>
+			</div>
+			
+			<div class="row">
+			
+			
+				<ul id="projects-slider">
+				
+<?php foreach ($this->projects as $row){			
+	list($width, $height) = getimagesize(BASE_URL.CommonController::getImage($row->projectImg));
+			
+			if ($width>$height){
+				$mode ="landscape";
+			}else{
+				$mode ="portrait";
+			}?>
+				<li>
+				<div class="col-md-12 home-project-col">
+				<div class="home-project-image <?php echo $mode?>"><img alt="" src="<?php echo CommonController::getImage($row->projectImg);?>" class="img-responsive"> </div>
+				<div class="home-project-title"><?php echo $row->projectTitle?></div>
+				</div>				
+				</li>
+				
+<!-- 								<li><a href="#">
+				<div class="col-md-12 home-project-col">
+				<div class="home-project-image "><img alt="" src="" class="img-responsive"> </div>
+				<div class="home-project-title">TITLE</div>
+				</div>				
+				</a></li> -->
+
+<?php }?>
+
+				
+				</ul>
+			
+
+			
+
+		
+			
+			
+			
+			
+			</div>
+			
+			
+			</div>
+			
+			
+			
+			
+			</div>
+			
+			<div class="row bottom-description-row">
+			
+			
+			<div class="container">
+			
+			<div class="bottom-title"><?php echo $this->whyInfo->pageTitle?></div>
+			<div class="bottom-description"><?php echo $this->whyInfo->pageDetails?></div>
+			
+			
+			</div>
+			
+			
+			
+			
+			</div>
+
+
+</div>
+<script>
+/* $(window).scroll(function() {
+	 //alert('you have scrolled to the h1!');
+	   var hT = $('#scroll-to').offset().top,
+	       hH = $('#scroll-to').outerHeight(),
+	       wH = $(window).height(),
+	       wS = $(this).scrollTop();
+	   //console.log(hT+"--"+hH+"--"+wH+"--"+wS);
+	   if (wS > hT){
+	       //console.log('banner diappeared');
+	       $('.home-services').stop().animate({
+	    	   'padding-top': '200px'}, 300, 'linear'
+	       );
+	       $('.customnav').fadeIn();
+	   }else if(hT > wS){
+		   //console.log("banner appeard");
+	       $('.home-services').stop().animate({
+	    	   'padding-top': '40px'}, 300, 'linear'
+	       );
+		   $('.customnav').fadeOut();
+	   }
+	}); */
+</script>

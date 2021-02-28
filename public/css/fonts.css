@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+@font-face {
+    font-family: 'DINB';
+    src: url('../fonts/din/din-bold/fonts/UFONTS_COM_DINBOLDALTERNATE_1.eot');
+    src: url('../fonts/din/din-bold/fonts/UFONTS_COM_DINBOLDALTERNATE_1.eot') format('embedded-opentype'),
+         url('../fonts/din/din-bold/fonts/UFONTS_COM_DINBOLDALTERNATE_1.woff2') format('woff2'),
+         url('../fonts/din/din-bold/fonts/UFONTS_COM_DINBOLDALTERNATE_1.woff') format('woff'),
+         url('../fonts/din/din-bold/fonts/UFONTS_COM_DINBOLDALTERNATE_1.ttf') format('truetype'),
+         url('../fonts/din/din-bold/fonts/UFONTS_COM_DINBOLDALTERNATE_1.svg#UFONTS_COM_DINBOLDALTERNATE_1') format('svg');
+}
+@font-face {
+    font-family: 'DINR';
+    src: url('../fonts/din/din-regular/fonts/DINR.eot');
+    src: url('../fonts/din/din-regular/fonts/DINR.eot') format('embedded-opentype'),
+         url('../fonts/din/din-regular/fonts/DINR.woff2') format('woff2'),
+         url('../fonts/din/din-regular/fonts/DINR.woff') format('woff'),
+         url('../fonts/din/din-regular/fonts/DINR.ttf') format('truetype'),
+         url('../fonts/din/din-regular/fonts/DINR.svg#DINR') format('svg');
+}
+

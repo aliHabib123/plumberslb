@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DINR';
+    src: url('fonts/DINR.eot');
+    src: url('fonts/DINR.eot') format('embedded-opentype'),
+         url('fonts/DINR.woff2') format('woff2'),
+         url('fonts/DINR.woff') format('woff'),
+         url('fonts/DINR.ttf') format('truetype'),
+         url('fonts/DINR.svg#DINR') format('svg');
+}

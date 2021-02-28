@@ -1,0 +1,31 @@
+<?php use Application\Controller\CommonController;
+?>
+<div class="internal-banner">
+	<img alt="" src="<?php echo CommonController::getImage($this->banner->bannerImg);?>" class="img-responsive">
+</div>
+<div class="container page-title"><span><?php echo $this->sectionInfo->sectionTitle?></span></div>
+		<div class="container internal">		
+				<div class="row">
+
+					
+
+					<?php foreach ($this->services as $row){?>
+					
+					<div class="col-md-4 content-center home-service-col home-service-col-in">
+						<div class="home-service-logo to-blue">
+						<a href="<?php echo MAIN_URL.'service-details/'.$row->serviceId?>">
+							<img alt="" src="<?php echo CommonController::getImage($row->serviceIcon);?>">
+						</a>
+						</div>
+							<div class="home-service-title"><?php echo $row->serviceTitle?></div>
+							<div class="home-service-desc"><?php echo CommonController::StripText($row->serviceDetails, 0, 100, true, true)?></div>
+							<div class="readmore"><a href="<?php echo MAIN_URL.'service-details/'.$row->serviceId?>">READ MORE</a></div>
+					</div>
+				<?php }?>
+				
+				
+				</div>
+			
+		
+			</div>
+			

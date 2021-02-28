@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UFONTS_COM_DINBOLDALTERNATE_1';
+    src: url('fonts/UFONTS_COM_DINBOLDALTERNATE_1.eot');
+    src: url('fonts/UFONTS_COM_DINBOLDALTERNATE_1.eot') format('embedded-opentype'),
+         url('fonts/UFONTS_COM_DINBOLDALTERNATE_1.woff2') format('woff2'),
+         url('fonts/UFONTS_COM_DINBOLDALTERNATE_1.woff') format('woff'),
+         url('fonts/UFONTS_COM_DINBOLDALTERNATE_1.ttf') format('truetype'),
+         url('fonts/UFONTS_COM_DINBOLDALTERNATE_1.svg#UFONTS_COM_DINBOLDALTERNATE_1') format('svg');
+}

@@ -1,0 +1,97 @@
+<?php use Application\Controller\CommonController;
+$socialMySqlExtDAO = new SocialMySqlExtDAO();
+$social= $socialMySqlExtDAO->queryAll();
+//print_r($social);?>
+<footer>
+<div class="subscribe-div">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-4 subscribe-title">SUBSCRIBE WITH US</div>
+		
+		<div class="col-md-8">
+<div class="row">
+			<form class="form-inline" role="form" action="submit-newsletter" id="newsletter-form" method="post">
+			  <div class="form-group col-md-6">
+			    <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+			  </div>
+			  <div class="form-group col-md-6 input-group1">
+			    <input type="email" class="form-control" id="email" placeholder="Email Address" name="email">
+			      <button type="submit" class="btn btn-default submit-newsletter"><i class="fa fa-angle-right"></i></button>
+			  </div>
+			
+			</form>
+
+
+</div>
+		</div>
+		</div>	
+	</div>
+</div>
+
+<div class="copyright-div">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 copyright-text">
+
+2016 (c) Plumbers. All rights reserved Privacy Policy <a href="http://thirteencube.com" target="_blank" style="color: #fff"> ThirteenCube</a>.
+</div>
+
+<div class="col-sm-6 content-right social">
+<span><a href="<?=$social[0]->socialFacebook?>" target="_blank"><img alt="" src="images/facebook.png"> </a></span>
+<span><a href="<?=$social[0]->socialInstagram?>" target="_blank"><img alt="" src="images/instagram.png"> </a></span>
+</div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</footer>
+			<script>
+
+$(function(){
+	/**
+	 * AJAX FUNCTION FOR CONTACT FORM
+	 */
+	$("#newsletter-form").submit(function(e) {
+		var formData = new FormData(this);
+		var formUrl = $(this).attr('action');
+		$.ajax({
+			url : formUrl,
+			type : 'POST',
+			dataType : 'json',
+			data : formData,
+			mimeType : "multipart/form-data",
+			contentType : false,
+			cache : false,
+			processData : false,
+			beforeSend : function() {
+				 $(window).scrollTop(0);
+					$('.ajax-loader').show();
+					$('body').addClass('overflow-hidden');
+			},
+			success : function(response) {
+				$('.ajax-loader').hide();
+				$('body').removeClass('overflow-hidden');
+				alertify.alert(response.message);
+				$("#newsletter-form").trigger('reset');
+				
+			},
+			error : function() {
+				alertify.alert("error");
+				$('.ajax-loader').hide();
+				$('body').removeClass('overflow-hidden');
+				$("#newsletter-form").trigger('reset');
+			}
+		});
+		e.preventDefault();
+	});
+});
+</script>

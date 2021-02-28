@@ -1,0 +1,47 @@
+<?php use Application\Controller\CommonController;
+?>
+<div class="internal-banner">
+	<img alt="" src="<?php echo CommonController::getImage($this->banner->bannerImg);?>" class="img-responsive">
+</div>
+<div class="container page-title"><span><?php echo $this->sectionInfo->sectionTitle?></span></div>	
+<div class="upper-text-c">
+		<div class="container upper-text">
+<?php echo $this->pageInfo->pageDetails?>		
+		</div>	
+
+</div>	
+		<div class="container internal">
+			<div class="row">
+		
+
+				
+
+				
+
+
+
+				<?php foreach ($this->products as $row){?>
+				<div class="col-md-4 col-sm-6 product-col">
+				<div class="product-col-in">
+				<!--  <span><img alt="" src="<?php //echo CommonController::getImage($row->productImg);?>"></span>-->
+				
+				
+				<div class="inline">
+					<div class="display-inline-block">
+					<a href="<?php echo MAIN_URL.'product-details/'.$row->productId?>">	       			
+		       				<img alt="" src="<?php echo CommonController::getImage($row->productImg);?>" class="">	       			
+		       		</a>					
+					</div>					
+			   </div>
+				
+				
+				</div>
+				</div>
+				<?php }?>
+					
+				
+				
+				
+			</div>
+		</div>
+			

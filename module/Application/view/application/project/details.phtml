@@ -1,0 +1,41 @@
+<?php use Application\Controller\CommonController;
+?>
+<div class="internal-banner">
+	<img alt="" src="<?php echo CommonController::getImage($this->banner->bannerImg);?>" class="img-responsive">
+</div>
+<div class="container page-title"><span><?php echo $this->sectionInfo->sectionTitle?></span></div>		
+
+<div class="container">
+	<div class="row">
+		  <ol class="breadcrumb">
+		    <li><a href="<?php echo MAIN_URL?>">HOME</a></li>
+		    <li><a href="<?php echo MAIN_URL.'projects'?>"><?php echo $this->sectionInfo->sectionTitle?></a></li>
+		    <li class="active"><?php echo $this->project->projectTitle?></li>
+		  </ol>
+	</div>
+</div>
+		<div class="container details">		
+		
+		<div class="row news-row">
+				<div class="col-xs-12">
+		<div class="row">
+		<div class="col-md-12">
+			<div class="news-title details"><?php echo $this->project->projectTitle?></div>
+		</div>
+		</div>
+		
+		</div>
+		<div class="col-md-6 news-details-img"><img alt="" src="<?php echo CommonController::getImage($this->project->projectImg);?>" class="img-responsive"></div>
+
+		
+		<div class="col-xs-12">
+			<div class="news-desc details">
+				<?php echo $this->project->projectDesc?>
+			</div>		
+		</div>
+				
+		</div>
+			
+		
+			</div>
+			

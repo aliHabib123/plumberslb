@@ -1,0 +1,146 @@
+<?php use Application\Controller\CommonController;
+?>
+<div class="internal-banner">
+	<img alt="" src="<?php echo CommonController::getImage($this->banner->bannerImg);?>" class="img-responsive">
+</div>
+<div class="container page-title"><span><?php echo $this->sectionInfo->sectionTitle?></span></div>
+		<div class="container internal">
+		
+		
+		<div class="row">
+		
+		<div class="col-xs-12">
+		
+		<div class="contact-row">
+		
+		<div class="row">
+		
+					<div class="col-md-6 mb20">
+				<div class="map" id="googleMap">
+					<!-- <img alt="" src="images/map.png"  class="img-responsive"/> -->
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="address-title content-center">Our Location</div>
+				<div class="address-1 content-center"><?php echo $this->contactInfo->contactAddress?></div>
+					<div class="address-2">
+					<span >t.&nbsp;</span><?php echo $this->contactInfo->contactTelephone?><br>
+					<?php if($this->contctInfo->contactFax !=""){?>
+					<span >f.&nbsp;</span><?php echo $this->contactInfo->contactFax?><br>
+					<?php }?>
+					<span >e.&nbsp;</span><?php echo $this->contactInfo->contactEmail?><br>
+					</div>
+			</div>
+		
+		</div>
+		
+		
+		</div>
+		
+		
+		
+		</div>
+
+			
+			</div>
+			
+			<div class="row">
+			
+			<!-- </div> -->
+		
+		<div class="col-xs-12 form-c">
+			<div class="leave">REQUEST A QUOTE</div>
+				<form class="form-horizontal" role="form" action="<?php echo MAIN_URL.'submit-contact'?>" method="POST" id="contact-form">
+				  <div class="form-group">
+				      <div class="col-sm-4 name">
+				      <input type="text" class="form-control" id="" placeholder="Name" name="name" required="">
+				    </div>
+				    <div class="col-sm-4 email"> 
+				      <input type="email" class="form-control" id="" placeholder="Email" name="email" required="">
+				    </div>
+				    <div class="col-sm-4 phone"> 
+				      <input type="text" class="form-control" id="" placeholder="Mobile" name="phone" required="">
+				    </div>
+				  </div>
+				    <div class="form-group">
+				    <div class="col-sm-12"> 
+				     <textarea class="form-control" rows="5" id="comment" name="message" required="" placeholder="Message"></textarea>
+				    </div>
+				  </div>
+				  <div class="form-group"> 
+				    <div class="col-sm-12">
+				      <button type="submit" class="btn btn-primary form-btn send">SEND</button>
+				       <button type="" class="btn btn-default form-btn cancel">CANCEL</button>
+				    </div>
+				  </div>
+				</form>						
+			</div>
+		
+		</div>
+			
+		</div>
+			
+			<script>
+
+$(function(){
+	/**
+	 * AJAX FUNCTION FOR CONTACT FORM
+	 */
+	$("#contact-form").submit(function(e) {
+		var formData = new FormData(this);
+		var formUrl = $(this).attr('action');
+		$.ajax({
+			url : formUrl,
+			type : 'POST',
+			dataType : 'json',
+			data : formData,
+			mimeType : "multipart/form-data",
+			contentType : false,
+			cache : false,
+			processData : false,
+			beforeSend : function() {
+				 $(window).scrollTop(0);
+					$('.ajax-loader').show();
+					$('body').addClass('overflow-hidden');
+			},
+			success : function(response) {
+				$('.ajax-loader').hide();
+				$('body').removeClass('overflow-hidden');
+				alertify.alert(response.message);
+				$("#contact-form").trigger('reset');
+				
+			},
+			error : function() {
+				alertify.alert("error");
+				$('.ajax-loader').hide();
+				$('body').removeClass('overflow-hidden');
+				$("#contact-form").trigger('reset');
+			}
+		});
+		e.preventDefault();
+	});
+});
+</script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA4Z_07zp77DCXN2oKTsR_Z3pLmCOWg1TE"></script>
+<script>
+var myCenter=new google.maps.LatLng(33.896667,35.511113);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:17,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>	
