@@ -73,4 +73,3 @@ if ($this->_foreach['Cells']['total'] > 0):
     <?php endforeach; endif; unset($_from); ?>
 
 <?php endif; ?>
-

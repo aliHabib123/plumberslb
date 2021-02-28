@@ -8,10 +8,10 @@
 	class Product{
 		
 		var $productId;
-		var $productName;
-		var $productDetails;
-		var $productImg;
-		var $productOrder;
-		
+		var $productName;
+		var $productDetails;
+		var $productImg;
+		var $productOrder;
+		
 	}
 ?>

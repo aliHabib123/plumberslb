@@ -28,4 +28,3 @@ $this->_smarty_include(array('smarty_include_tpl_file' => $this->_tpl_vars['Layo
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
-

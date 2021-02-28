@@ -54,4 +54,4 @@
         <a href="#" class="btn btn-primary" id="pg-change-password-dialog-ok-button"><?php echo $this->_tpl_vars['Captions']->GetMessageString('ChangePassword'); ?>
 </a>
     </div>
-</div>
+</div>

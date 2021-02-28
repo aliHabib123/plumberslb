@@ -8,10 +8,10 @@
 	class TbNew{
 		
 		var $tbNewsId;
-		var $tbNewsTitle;
-		var $tbNewsDetails;
-		var $tbNewsDate;
-		var $tbNewsImg;
-		
+		var $tbNewsTitle;
+		var $tbNewsDetails;
+		var $tbNewsDate;
+		var $tbNewsImg;
+		
 	}
 ?>

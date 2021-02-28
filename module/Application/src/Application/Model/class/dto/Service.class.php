@@ -8,12 +8,12 @@
 	class Service{
 		
 		var $serviceId;
-		var $serviceTitle;
-		var $serviceDetails;
-		var $serviceIcon;
-		var $serviceImage;
-		var $serviceOrder;
-		var $showHome;
-		
+		var $serviceTitle;
+		var $serviceDetails;
+		var $serviceIcon;
+		var $serviceImage;
+		var $serviceOrder;
+		var $showHome;
+		
 	}
 ?>

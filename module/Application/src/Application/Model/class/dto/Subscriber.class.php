@@ -8,9 +8,9 @@
 	class Subscriber{
 		
 		var $subscriberId;
-		var $subscriberName;
-		var $subscriberEmail;
-		var $isActive;
-		
+		var $subscriberName;
+		var $subscriberEmail;
+		var $isActive;
+		
 	}
 ?>
