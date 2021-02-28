@@ -9,13 +9,13 @@ define ( 'PATH', dirname ( __FILE__ ) );
 
 
 // Locally
-/*define ( 'MAIN_URL', 'http://localhost/new-projects/plumbers/public/');
-define ( 'BASE_URL', 'http://localhost/new-projects/plumbers/public/' );
-*/
+define ( 'MAIN_URL', 'http://localhost/thirteencube/plumbers/public/');
+define ( 'BASE_URL', 'http://localhost/thirteencube/plumbers/public/' );
+
 //ONLINE
  
-define ( 'MAIN_URL', 'http://plumbers-lb.com/');
-define ( 'BASE_URL', 'http://plumbers-lb.com/public/' ); 
+// define ( 'MAIN_URL', 'http://plumbers-lb.com/');
+// define ( 'BASE_URL', 'http://plumbers-lb.com/public/' ); 
 
 
 /**
