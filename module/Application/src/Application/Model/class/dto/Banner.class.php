@@ -8,10 +8,10 @@
 	class Banner{
 		
 		var $bannerId;
-		var $bannerImg;
-		var $bannerTitle;
-		var $bannerDetails;
-		var $sectionId;
-		
+		var $bannerImg;
+		var $bannerTitle;
+		var $bannerDetails;
+		var $sectionId;
+		
 	}
 ?>

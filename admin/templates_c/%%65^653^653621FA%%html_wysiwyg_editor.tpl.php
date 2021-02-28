@@ -7,4 +7,4 @@ unset($_smarty_tpl_vars);
     class="html_wysiwyg"
     ><?php echo $this->_tpl_vars['HTMLWysiwygEditor']->GetValue(); ?>
 
-</textarea>
+</textarea>

@@ -8,8 +8,8 @@
 	class Section{
 		
 		var $sectionId;
-		var $sectionName;
-		var $sectionTitle;
-		
+		var $sectionName;
+		var $sectionTitle;
+		
 	}
 ?>

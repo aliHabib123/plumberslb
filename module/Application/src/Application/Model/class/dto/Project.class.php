@@ -8,12 +8,12 @@
 	class Project{
 		
 		var $projectId;
-		var $projectTitle;
-		var $projectDesc;
-		var $projectImg;
-		var $projectOrder;
+		var $projectTitle;
+		var $projectDesc;
+		var $projectImg;
+		var $projectOrder;
 		
 		var $showHome;
-		
+		
 	}
 ?>

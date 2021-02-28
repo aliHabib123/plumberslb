@@ -8,10 +8,10 @@
 	class Page{
 		
 		var $pageId;
-		var $pageName;
-		var $pageTitle;
-		var $pageDetails;
-		var $pageImg;
-		
+		var $pageName;
+		var $pageTitle;
+		var $pageDetails;
+		var $pageImg;
+		
 	}
 ?>

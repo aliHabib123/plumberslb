@@ -8,11 +8,11 @@
 	class Social{
 		
 		var $socialId;
-		var $socialFacebook;
-		var $socialTwitter;
-		var $socialLinkedin;
-		var $socialYoutube;
-		var $socialInstagram;
-		
+		var $socialFacebook;
+		var $socialTwitter;
+		var $socialLinkedin;
+		var $socialYoutube;
+		var $socialInstagram;
+		
 	}
 ?>

@@ -15,7 +15,8 @@ use Zend\Filter\StripTags;
 use Zend\Filter\StringTrim;
 use Zend\Filter\HtmlEntities;
 
-class CommonController extends AbstractActionController {	
+class CommonController extends AbstractActionController {
+	
 	/**
 	 * The default action - show the home page
 	 */

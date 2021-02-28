@@ -8,10 +8,10 @@
 	class Contact{
 		
 		var $contactId;
-		var $contactAddress;
-		var $contactTelephone;
-		var $contactFax;
-		var $contactEmail;
-		
+		var $contactAddress;
+		var $contactTelephone;
+		var $contactFax;
+		var $contactEmail;
+		
 	}
 ?>

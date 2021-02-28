@@ -47,4 +47,4 @@ unset($_smarty_tpl_vars);
 <?php endif; ?>
 <?php if ($this->_tpl_vars['TextEdit']->getPrefix() || $this->_tpl_vars['TextEdit']->getSuffix()): ?>
     </div>
-<?php endif; ?>
+<?php endif; ?>

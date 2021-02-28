@@ -1,0 +1,250 @@
+[10-Dec-2017 21:03:19 UTC] PHP Fatal error:  Class 'Application\Controller\CustomController' not found in /home/plumberslb/public_html/module/Application/view/layout/header.phtml on line 7
+[10-Dec-2017 21:03:20 UTC] PHP Fatal error:  Class 'Application\Controller\CustomController' not found in /home/plumberslb/public_html/module/Application/view/layout/header.phtml on line 7
+[09-Jan-2019 19:22:42 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 19:22:43 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 19:32:07 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 19:32:07 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 19:37:43 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 19:37:44 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 20:18:25 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 20:18:27 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 21:09:21 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[09-Jan-2019 21:09:21 UTC] PHP Warning:  Module 'mssql' already loaded in Unknown on line 0
+[29-Jul-2019 08:26:15 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:26:36 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:27:22 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:28:12 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:28:29 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:29:11 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:29:32 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:29:45 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:30:33 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:30:50 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:31:15 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:31:40 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:32:01 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:32:34 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:32:59 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:33:19 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:33:25 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:34:05 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:34:30 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:34:35 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:35:00 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:36:28 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:37:43 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:38:26 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:38:34 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[29-Jul-2019 08:39:36 UTC] PHP Fatal error:  Uncaught exception 'Zend\Http\Exception\InvalidArgumentException' with message 'A field name was provided without a field value' in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php:176
+Stack trace:
+#0 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/Headers.php(138): Zend\Http\Headers->addHeaderLine('Mozilla/5.0 (Wi...')
+#1 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(236): Zend\Http\Headers->addHeaders(Array)
+#2 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Http/PhpEnvironment/Request.php(82): Zend\Http\PhpEnvironment\Request->setServer(Object(Zend\Stdlib\Parameters))
+#3 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/Mvc/Service/RequestFactory.php(32): Zend\Http\PhpEnvironment\Request->__construct()
+#4 [internal function]: Zend\Mvc\Service\RequestFactory->createService(Object(Zend\ServiceManager\ServiceManage in /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/ServiceManager/ServiceManager.php on line 909
+[02-Feb-2020 20:12:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php:19
+Stack trace:
+#0 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/QueryExecutor.class.php(19): Connection->Connection()
+#2 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(194): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(29): SocialMySqlDAO->getList(Object(SqlQuery))
+#4 /home/plumberslb/public_html/module/Application/view/layout/footer.phtml(3): SocialMySqlDAO->queryAll()
+#5 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php(506): inc in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php on line 19
+[02-Feb-2020 20:12:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php:19
+Stack trace:
+#0 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/QueryExecutor.class.php(19): Connection->Connection()
+#2 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(194): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(29): SocialMySqlDAO->getList(Object(SqlQuery))
+#4 /home/plumberslb/public_html/module/Application/view/layout/footer.phtml(3): SocialMySqlDAO->queryAll()
+#5 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php(506): inc in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php on line 19
+[02-Feb-2020 20:12:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php:19
+Stack trace:
+#0 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/QueryExecutor.class.php(19): Connection->Connection()
+#2 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(194): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(29): SocialMySqlDAO->getList(Object(SqlQuery))
+#4 /home/plumberslb/public_html/module/Application/view/layout/footer.phtml(3): SocialMySqlDAO->queryAll()
+#5 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php(506): inc in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php on line 19
+[02-Feb-2020 20:12:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php:19
+Stack trace:
+#0 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/QueryExecutor.class.php(19): Connection->Connection()
+#2 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(194): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(29): SocialMySqlDAO->getList(Object(SqlQuery))
+#4 /home/plumberslb/public_html/module/Application/view/layout/footer.phtml(3): SocialMySqlDAO->queryAll()
+#5 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php(506): inc in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php on line 19
+[03-Feb-2020 23:07:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php:19
+Stack trace:
+#0 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/QueryExecutor.class.php(19): Connection->Connection()
+#2 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(194): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(29): SocialMySqlDAO->getList(Object(SqlQuery))
+#4 /home/plumberslb/public_html/module/Application/view/layout/footer.phtml(3): SocialMySqlDAO->queryAll()
+#5 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php(506): inc in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php on line 19
+[03-Feb-2020 23:07:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php:19
+Stack trace:
+#0 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/QueryExecutor.class.php(19): Connection->Connection()
+#2 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(194): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(29): SocialMySqlDAO->getList(Object(SqlQuery))
+#4 /home/plumberslb/public_html/module/Application/view/layout/footer.phtml(3): SocialMySqlDAO->queryAll()
+#5 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php(506): inc in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php on line 19
+[18-Feb-2020 01:04:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php:19
+Stack trace:
+#0 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/QueryExecutor.class.php(19): Connection->Connection()
+#2 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(194): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/plumberslb/public_html/module/Application/src/Application/Model/class/mysql/SocialMySqlDAO.class.php(29): SocialMySqlDAO->getList(Object(SqlQuery))
+#4 /home/plumberslb/public_html/module/Application/view/layout/footer.phtml(3): SocialMySqlDAO->queryAll()
+#5 /home/plumberslb/public_html/vendor/zendframework/zendframework/library/Zend/View/Renderer/PhpRenderer.php(506): inc in /home/plumberslb/public_html/module/Application/src/Application/Model/class/sql/ConnectionFactory.class.php on line 19
