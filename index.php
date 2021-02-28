@@ -9,7 +9,7 @@ define ( 'PATH', dirname ( __FILE__ ) );
 
 
 // Locally
-define ( 'MAIN_URL', 'http://localhost/thirteencube/plumbers/public/');
+define ( 'MAIN_URL', 'http://localhost/thirteencube/plumbers/');
 define ( 'BASE_URL', 'http://localhost/thirteencube/plumbers/public/' );
 
 //ONLINE
