@@ -1,6 +1,5 @@
 .settings/
 .buildpath
 .project
-public/uploads/
 admin/phpgen_settings.php
 module/Application/src/Application/Model/class/sql/ConnectionProperty.class.php
