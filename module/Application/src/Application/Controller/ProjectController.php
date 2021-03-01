@@ -36,6 +36,11 @@ class ProjectController extends AbstractActionController {
 		$projectMySqlExtDAO = new \ProjectMySqlExtDAO();
 		$projects = $projectMySqlExtDAO->getProjects($isupcoming, $limit, $offset);
 		$count = ceil(count($projectMySqlExtDAO->getProjectsCount($isupcoming)) / $limit);
+		if($isupcoming){
+			$this->layout()->metaTitle = 'Upcoming Projects';
+		} else{
+			$this->layout()->metaTitle = 'Old Projects';
+		}
 		return new ViewModel (array(
 				'banner'=>$banner,
 				'sectionInfo'=>$sectionInfo,

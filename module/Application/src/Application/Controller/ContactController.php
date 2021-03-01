@@ -31,6 +31,9 @@ class ContactController extends AbstractActionController
     	$contactMySqlExtDAO = new \ContactMySqlExtDAO();
     	$contactInfo = $contactMySqlExtDAO->load(1);
     	
+        $this->layout()->metaTitle = 'Contact Us';
+		$this->layout()->metaDesc = strip_tags(trim($contactInfo->contactAddress)) . ' '.trim($contactInfo->contactTelephone).' '.trim($contactInfo->contactEmail);
+
         $this->layout()->contactActive = 'active';
         return new ViewModel(array(
         		"banner"=>$banner,

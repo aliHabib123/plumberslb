@@ -31,6 +31,8 @@ class IndexController extends AbstractActionController
     	$whyPageInfo = PageController::getPageInfo(PageController::$WHY_PLUMBERS);
     	
     	$this->layout()->home = 'home';
+		$this->layout()->metaTitle = 'Homepage';
+		$this->layout()->metaDesc = $whyPageInfo->pageDetails;
     	
         return new ViewModel(array(
         		'banner'=>$banner,
@@ -53,7 +55,8 @@ class IndexController extends AbstractActionController
     	$page5 = PageController::getPageInfo(PageController::$MISSION);
     	$page6 = PageController::getPageInfo(PageController::$OBJECTIVE);
     	$whyPageInfo = PageController::getPageInfo(PageController::$WHY_PLUMBERS);
-    	
+    	$this->layout()->metaTitle = 'About Us';
+		$this->layout()->metaDesc = $whyPageInfo->pageDetails;
     	return new ViewModel(array(
     			'banner'=>$banner,
     			'page1'=>$page1,
