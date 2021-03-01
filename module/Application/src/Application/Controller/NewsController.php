@@ -24,6 +24,7 @@ class NewsController extends AbstractActionController {
     	
     	$newsMySqlExtDAO = new \TbNewsMySqlExtDAO();
     	$news = $newsMySqlExtDAO->getNews();
+		$this->layout()->metaTitle = 'News';
 		return new ViewModel (array(
 				'banner'=>$banner,
 				'sectionInfo'=>$sectionInfo,
@@ -42,6 +43,8 @@ class NewsController extends AbstractActionController {
     	
     	$newsMySqlExtDAO = new \TbNewsMySqlExtDAO();
     	$news = $newsMySqlExtDAO->load($newsId);
+		$this->layout()->metaTitle = 'News - '.$news->tbNewsTitle;
+		$this->layout()->metaDesc = strip_tags(trim($news->tbNewsDetails));
 		return new ViewModel (array(
 				'banner'=>$banner,
 				'sectionInfo'=>$sectionInfo,
