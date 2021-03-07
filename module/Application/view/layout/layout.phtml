@@ -20,7 +20,7 @@ if($this->metaDesc){
         <title><?php echo $metaTitle;?></title>
         <base href="<?php echo BASE_URL?>">
         <link rel="icon" type="image/png" href="images/favicon.png" />
-        <meta name="description" content="<?php echo $metaDesc;?>">
+        <meta name="description" content="<?php echo trim(strip_tags($metaDesc));?>">
         <meta name="robots" content="none">
         <meta name="keywords" content="<?php echo $keywords; ?>"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">        
